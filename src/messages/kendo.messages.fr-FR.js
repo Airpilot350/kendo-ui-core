@@ -407,4 +407,14 @@ $.extend(true, kendo.ui.Scheduler.prototype.options.messages,{
   "showWorkDay": "Montrer les heures ouvrables"
 });
 }
+
+/* NumericTextBox messages */
+
+if (kendo.ui.NumericTextBox) {
+kendo.ui.NumericTextBox.prototype.options =
+$.extend(true, kendo.ui.NumericTextBox.prototype.options,{
+  "upArrowText": "Augmenter la valeur",
+  "downArrowText": "Diminuer la valeur"
+});
+}
 })(window.kendo.jQuery);
