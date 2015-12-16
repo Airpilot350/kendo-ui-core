@@ -153,8 +153,8 @@ $.extend(true, kendo.ui.Grid.prototype.options.messages,{
     "canceledit": "Annuler",
     "update": "Mettre à jour",
     "edit": "Éditer",
-    "excel": "Export to Excel",
-    "pdf": "Export to PDF",
+    "excel": "Exporter vers Excel",
+    "pdf": "Exporter en PDF",
     "select": "Sélectionner",
     "cancel": "Annuler les modifications",
     "save": "Enregistrer les modifications"
@@ -173,9 +173,9 @@ $.extend(true, kendo.ui.Grid.prototype.options.messages,{
 if (kendo.ui.Pager) {
 kendo.ui.Pager.prototype.options.messages =
 $.extend(true, kendo.ui.Pager.prototype.options.messages,{
-  "allPages": "All",
+  "allPages": "Toutes",
   "page": "Page",
-  "display": "Afficher les items {0} - {1} de {2}",
+  "display": "Afficher les lignes {0} - {1} de {2}",
   "of": "de {0}",
   "empty": "Aucun enregistrement à afficher.",
   "refresh": "Actualiser",
@@ -293,17 +293,17 @@ $.extend(true, kendo.ui.Editor.prototype.options.messages,{
   "linkWebAddress": "Adresse Web",
   "search": "Search",
   "createTable": "Insérer un tableau",
-  "addColumnLeft": "Add column on the left",
-  "addColumnRight": "Add column on the right",
-  "addRowAbove": "Add row above",
-  "addRowBelow": "Add row below",
-  "deleteColumn": "Delete column",
-  "deleteRow": "Delete row",
-  "dropFilesHere": "drop files here to upload",
-  "formatting": "Format",
-  "viewHtml": "View HTML",
-  "dialogUpdate": "Update",
-  "insertFile": "Insert file"
+  "addColumnLeft": "Ajouter une colonne à gauche",
+  "addColumnRight": "Ajouter une colonne à droite",
+  "addRowAbove": "Ajouter une ligne au-dessus",
+  "addRowBelow": "Ajouter une ligne en dessous",
+  "deleteColumn": "Supprimer la colonne",
+  "deleteRow": "Supprimer la ligne",
+  "dropFilesHere": "glissez les fichiers ici pour les charger",
+  "formatting": "Formater",
+  "viewHtml": "Voir en HTML",
+  "dialogUpdate": "Mettre à jour",
+  "insertFile": "Insérer un fichier"
 });
 }
 
@@ -368,7 +368,7 @@ $.extend(true, kendo.ui.Scheduler.prototype.options.messages,{
   "editor": {
     "allDayEvent": "Toute la journée",
     "description": "Description",
-    "editorTitle": "Event",
+    "editorTitle": "Evènement",
     "end": "Fin",
     "endTimezone": "End timezone",
     "repeat": "Répéter",
@@ -393,7 +393,7 @@ $.extend(true, kendo.ui.Scheduler.prototype.options.messages,{
     "editWindowTitle": "Modification de l'élément courant"
   },
   "save": "Sauvegarder",
-  "time": "Time",
+  "time": "Heure",
   "today": "Aujourd'hui",
   "views": {
     "agenda": "Agenda",
